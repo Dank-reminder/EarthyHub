@@ -1,2 +1,4 @@
 # EarthyHub
 EarthyHub Roblox Script Handler
+--Made by Earthy#6195
+--NONE OF THE SCRIPTS ARE MINE I JUST MADE A GAME DETECTOR TO MAKE FINDING SCRIPTS EASIER
