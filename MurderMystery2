@@ -1,4 +1,16 @@
--- Murder Mystery 2 Utilities by zzerexx#3970
+local function callback(Text)
+end
+
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+ 
+game.StarterGui:SetCore("SendNotification", {
+    Title = "EarthyHub";
+    Text = "Murder Mystery 2 has been loaded!";
+    Duration = "5";
+    Callback = NotificationBindable;
+})
+
 getgenv().Settings = {
 	Enabled = true,
 	Notifications = true,       -- Receive notifications upon toggling features
